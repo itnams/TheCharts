@@ -23,7 +23,7 @@ import com.example.thecharts.charts.bar.render.label.SimpleLabelDrawer
 fun BarChartScreen() {
     Scaffold(topBar = {
         TopAppBar(navigationIcon = {
-            IconButton(onClick = {  }) {
+            IconButton(onClick = { }) {
                 Icon(
                     imageVector = Icons.Default.ArrowBack,
                     contentDescription = "Go back home"
@@ -78,13 +78,13 @@ private fun DrawLabelLocation(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(top = 30.dp),
+            .padding(top = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(horizontal = 15.dp, vertical = 15.dp)
+                .padding(horizontal = 14.dp, vertical = 14.dp)
                 .align(Alignment.CenterVertically),
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
@@ -105,7 +105,7 @@ private fun AddOrRemoveBar(barChartDataModel: BarChartDataModel) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 15.dp),
+            .padding(vertical = 14.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.Center,
     ) {
@@ -122,7 +122,7 @@ private fun AddOrRemoveBar(barChartDataModel: BarChartDataModel) {
 
         Row(
             modifier = Modifier.padding(
-                horizontal = 15.dp,
+                horizontal = 14.dp,
             ),
             verticalAlignment = Alignment.CenterVertically
         ) {
