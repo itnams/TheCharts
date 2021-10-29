@@ -25,7 +25,7 @@ class BarChartDataModel {
         Color(0XFF607D8B)
     )
 
-    var labelDrawer by mutableStateOf(SimpleLabelDrawer(drawLocation = SimpleLabelDrawer.DrawLocation.Inside))
+    var labelDrawer by mutableStateOf(SimpleLabelDrawer(drawLocation = SimpleLabelDrawer.DrawLocation.XAxis))
         private set
 
     var barChartData by mutableStateOf(
@@ -51,6 +51,41 @@ class BarChartDataModel {
                     value = randomValue(),
                     color = randomColor()
                 ),
+                BarChartData.Bar(
+                    label = "Bar 5",
+                    value = randomValue(),
+                    color = randomColor()
+                ),
+                BarChartData.Bar(
+                    label = "Bar 6",
+                    value = randomValue(),
+                    color = randomColor()
+                ),
+                BarChartData.Bar(
+                    label = "Bar 7",
+                    value = randomValue(),
+                    color = randomColor()
+                ),
+                BarChartData.Bar(
+                    label = "Bar 8",
+                    value = randomValue(),
+                    color = randomColor()
+                ),
+                BarChartData.Bar(
+                    label = "Bar 9",
+                    value = randomValue(),
+                    color = randomColor()
+                ),
+                BarChartData.Bar(
+                    label = "Bar 11",
+                    value = randomValue(),
+                    color = randomColor()
+                ),
+                BarChartData.Bar(
+                    label = "Bar 12",
+                    value = randomValue(),
+                    color = randomColor()
+                )
             )
         )
     )
